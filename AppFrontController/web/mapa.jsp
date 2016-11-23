@@ -97,8 +97,8 @@
             });
         </script>
     </head>
-    <body style="overflow: hidden">
-        <div class="container-fluid" style="padding: 0">
+    <body>
+        <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span12">
                     <div id="MeuMapa" class="map"><div id="popup"></div></div>
