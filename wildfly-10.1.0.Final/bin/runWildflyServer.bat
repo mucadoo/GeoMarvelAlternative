@@ -1,0 +1,1 @@
+standalone.bat -b 0.0.0.0 -c standalone-full.xml
