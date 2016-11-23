@@ -93,20 +93,7 @@
                         $(element).popover('destroy');
                     }
                 });
-
-                var target = meuMapa.getTarget();
-                var jTarget = typeof target === "string" ? $("#" + target) : $(target);
-                $(meuMapa.getViewport()).on('mousemove', function (e) {
-                    var pixel = meuMapa.getEventPixel(e.originalEvent);
-                    var hit = meuMapa.forEachFeatureAtPixel(pixel, function (feature, layer) {
-                        return true;
-                    });
-                    if (hit) {
-                        jTarget.css("cursor", "pointer");
-                    } else {
-                        jTarget.css("cursor", "");
-                    }
-                });
+                
             });
         </script>
     </head>
