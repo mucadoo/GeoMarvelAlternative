@@ -51,6 +51,14 @@ public class UsuarioBean implements UsuarioBeanRemote {
         result = q.getResultList();
         return result;
     }
+    
+    public Usuario buscaUsuarioPorLogin(final String login) {
+        Query q = em.createQuery("select u from Usuario u where u.login = :par1");
+        q.setParameter("par1", login);
+        List<Usuario> list = q.getResultList();
+        Usuario result = list.get(0);
+        return result;
+    }
 
     public void removeUsuario(final int id) {
         Usuario u = em.find(Usuario.class, id);

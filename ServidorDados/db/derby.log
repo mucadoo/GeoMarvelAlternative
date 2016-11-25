@@ -1,7 +1,7 @@
-Wed Nov 23 03:21:10 BRST 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+Fri Nov 25 08:17:14 BRST 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Wed Nov 23 03:22:08 BRST 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0158-8fa1-699d-0000420d5bd2 
+Fri Nov 25 08:17:58 BRST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0158-9afd-3171-0000420d5bd2 
 on database directory D:\Git\GeoMarvelAlternative\ServidorDados\db\meuDB with class loader sun.misc.Launcher$AppClassLoader@60e53b93 
 Loaded from file:/D:/Git/GeoMarvelAlternative/ServidorDados/db-derby-10.10.2.0-bin/lib/derby.jar
 java.vendor=Oracle Corporation

@@ -471,7 +471,13 @@
 
     <deployments>
         <deployment name="AppFrontController.war" runtime-name="AppFrontController.war">
-            <content sha1="d49034ef24f6f826ab1e2ce6f2e03e057774d242"/>
+            <content sha1="f12474ccdf920b37fbe0c4ffd660c4a5b1484c56"/>
+        </deployment>
+        <deployment name="WebRest.war" runtime-name="WebRest.war">
+            <content sha1="046272f5d40cc102fa4d4cffa648e6e55ce37327"/>
+        </deployment>
+        <deployment name="AppEnterprise.ear" runtime-name="AppEnterprise.ear">
+            <content sha1="9057a6c2ec0e2ad9e088e07f7f8ef1442ffe6735"/>
         </deployment>
     </deployments>
 </server>

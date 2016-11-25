@@ -468,4 +468,16 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+
+    <deployments>
+        <deployment name="AppFrontController.war" runtime-name="AppFrontController.war">
+            <content sha1="f12474ccdf920b37fbe0c4ffd660c4a5b1484c56"/>
+        </deployment>
+        <deployment name="AppEnterprise.ear" runtime-name="AppEnterprise.ear">
+            <content sha1="9057a6c2ec0e2ad9e088e07f7f8ef1442ffe6735"/>
+        </deployment>
+        <deployment name="WebRest.war" runtime-name="WebRest.war">
+            <content sha1="04eb08e43193480244286384c33fb8d085c2cf39"/>
+        </deployment>
+    </deployments>
 </server>

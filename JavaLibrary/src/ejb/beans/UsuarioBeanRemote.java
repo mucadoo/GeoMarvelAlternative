@@ -17,6 +17,8 @@ public interface UsuarioBeanRemote {
 
     public Collection buscaUsuarioPorNome(final String nome);
 
+    public Usuario buscaUsuarioPorLogin(final String login);
+
     public void removeUsuario(final int id);
 
     public void updateUsuario(Usuario user);
